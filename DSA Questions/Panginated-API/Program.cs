@@ -16,7 +16,7 @@ namespace Panginated_API
             Console.WriteLine("Hello, World!");
             var page = 1;
             var perPage = 5;
-            var accessToken = "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";
+            var accessToken = "YOUR_GITHU_TOKEN";
 
             HttpClient client = new HttpClient();
             client.DefaultRequestHeaders.UserAgent.Add(new System.Net.Http.Headers.ProductInfoHeaderValue("AppName", "1.0"));
